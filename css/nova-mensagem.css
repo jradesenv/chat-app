@@ -1,0 +1,17 @@
+.divNome {
+    width: 100%; 
+    float: left;
+}
+
+.divMensagem {
+    width: 100%; 
+    float: left;
+}
+
+#txtNome {
+    width: 200px;
+}
+
+#txtMensagem {    
+    width: 300px;
+}

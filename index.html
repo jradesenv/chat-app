@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat App</title>
+
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <link href="css/mensagens-recebidas.css" rel="stylesheet" type="text/css">
+    <link href="css/nova-mensagem.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="divConteudo">
+        <div id="divTitulo">
+            <h1>Chat APP</h1>
+            <h2>Seu mundo virtual</h2>
+        </div>
+
+        <div id="divMensagensRecebidas">
+            <ul id="ulMensagensRecebidas">
+                <li>
+                    <span class="msgNome">Jean Robert:</span>
+                    <span class="msgTexto">Eae meu, beleza?</span>
+                </li>
+            </ul>
+        </div>
+
+        <div id="divNovaMensagem">
+            <div id="divNome">
+                <label for="txtNome">Nome: </label>
+                <input type="text" id="txtNome"/>
+            </div>
+
+            <div id="divMensagem">
+                <label for="txtMensagem">Mensagem: </label>
+                <input type="text" id="txtMensagem"/>
+            </div>
+
+            <button id="btnEnviarMensagem">ENVIAR</button>
+            <button id="btnLimparMensagem">LIMPAR</button>
+        </div>
+    </div>
+
+    <!-- scripts -->
+    <script src="js/index.js" type="text/javascript">
+    </script>
+    <script src="js/nova-mensagem.js" type="text/javascript">
+    </script>
+</body>
+
+</html>
